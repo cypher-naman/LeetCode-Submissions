@@ -1,6 +1,5 @@
 class Solution {
     func isPalindrome(_ x: Int) -> Bool {
-    //    -231 <= x <= 231 - 1
         if x < 0 {
             return false
         } else if x == 0 {
