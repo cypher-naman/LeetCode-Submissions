@@ -5,7 +5,6 @@ public:
         for (int i=0; i<strs[0].size(); ++i) {
             bool isSameChar = true;
             for(int j=1; j<strs.size(); ++j) {
-                // cout<<strs[0][i]<<strs[j][i]<<endl;
                 if (strs[j][i] == strs[0][i]);
                 else {
                     isSameChar = false;
@@ -19,7 +18,6 @@ public:
             }
         }
         string returnStr;
-        cout<<sameCtr<<endl;
         while(sameCtr > 0) {
             --sameCtr;
             returnStr = strs[0][sameCtr] + returnStr;
